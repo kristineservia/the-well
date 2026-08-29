@@ -1,0 +1,52 @@
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Allow percentage heights */
+html,
+body {
+  height: 100%;
+}
+
+/* Improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Images should never overflow */
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+/* Form elements inherit the page font */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove list bullets */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons look neutral until we style them */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

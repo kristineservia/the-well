@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kristine Servia" />
+    <meta name="keywords" content="collections, index-cards" />
+    <meta
+      name="description"
+      content="The Well is an interactive application where users can read, medidtate on, and memorize Bible verses."
+    />
+    <title>The Well</title>
+
+    <link href="./assets/css/index.css" rel="stylesheet" />
+
+    <link
+      href="./assets/images/flower_leaf.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- HEADER BLOCK -->
+      <header class="header">
+        <h1 class="header__title">
+          <a href="#/home" class="header__link">THE WELL</a>
+        </h1>
+
+        <!-- NAV BLOCK -->
+        <nav class="nav">
+          <ul class="nav__links">
+            <li><a href="#/home" class="nav__link">Gallery</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- GALLERY BLOCK -->
+      <main id="app" class="gallery__main-content">
+        <section id="gallery__home-view">
+          <h3 class="gallery__title">Verse Memorization</h3>
+          <div class="gallery__cards"></div>
+        </section>
+
+        <template id="gallery__card-template">
+          <article class="gallery__card">
+            <div class="card__front">
+              <h3 class="gallery__card-keyword"></h3>
+              <p class="gallery__card-verse-location"></p>
+              <button class="gallery__card-flip-btn">
+                <img src="./assets/images/flip.svg" alt="Flip card" />
+              </button>
+            </div>
+
+            <div class="card__back">
+              <p class="gallery__card-verse"></p>
+              <button class="gallery__card-flip-btn">
+                <img src="./assets/images/flip.svg" alt="Flip card" />
+              </button>
+            </div>
+          </article>
+        </template>
+
+        <!-- FOOTER BLOCK -->
+        <!-- <footer class="footer">
+          <p class="footer__text">&copy; 2026 Kristine Servia</p>
+        </footer> -->
+      </main>
+    </div>
+
+    <script type="module" src="./assets/js/index.js"></script>
+  </body>
+</html>
+
+<!-- TYJ! -->
