@@ -15,6 +15,7 @@
   justify-content: center;
   column-gap: 16px;
   row-gap: 16px;
+  width: 100%;
 
   /* grid-template-columns: repeat(4, 325px);
   grid-template-rows: repeat(3, 325px); */
