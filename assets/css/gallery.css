@@ -13,8 +13,8 @@
   /* grid-template-columns: repeat(4, 260px);  <--ORIGINAL LAYOUT*/
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
-  column-gap: 50px;
-  row-gap: 24px;
+  column-gap: 16px;
+  row-gap: 16px;
 
   /* grid-template-columns: repeat(4, 325px);
   grid-template-rows: repeat(3, 325px); */
