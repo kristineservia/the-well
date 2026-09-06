@@ -2,4 +2,8 @@
   .page {
     background-color: white;
   }
+
+  .gallery__cards {
+    grid-template-columns: 1fr;
+  }
 }
