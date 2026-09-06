@@ -3,6 +3,12 @@
     background-color: white;
   }
 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .gallery__cards {
     grid-template-columns: 1fr;
   }
