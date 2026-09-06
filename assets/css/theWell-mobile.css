@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
   .page {
     background-color: white;
+    padding: 60px;
   }
 
   .header {
