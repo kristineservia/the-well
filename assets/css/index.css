@@ -1,8 +1,13 @@
+/* 1. Global foundation */
+@import url(./reset.css);
+@import url(./page.css);
+
+/* 2. Page components */
 @import url(./header.css);
 @import url(./nav.css);
 @import url(./card.css);
 @import url(./gallery.css);
-@import url(./reset.css);
-@import url(./page.css);
 @import url(./footer.css);
+
+/* 3. Responsive styles */
 @import url(./theWell-mobile.css);
