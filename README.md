@@ -28,7 +28,7 @@ The application displays a collection of 12 interactice cards, each featuring a 
 
 ![The Well App Home Page](./assets/images/screenshots/homePage-1.png)
 
-#### Card Interactions: Click the "Flip" button to see the verse on the back of the card.
+#### Card Interactions | A "Flip" button is used to see the verse on the back of the card.
 
 ![The Well App Card Interactions 1](./assets/images/screenshots/homePage-2.png)
 ![The Well App Card Interactions 2](./assets/images/screenshots/homePage-3.png)
