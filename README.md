@@ -1,4 +1,4 @@
-# Gallery 00 -- The Well
+# The Well
 
 **The Well** is a scripture memorization web application developed as an independent front-end practice project, inspired by the Flashcard App project.
 
