@@ -60,3 +60,5 @@ Planned features include:
 **Work in progress -- experimental front-end application**
 
 The Well is maintained as a standalone project, with updates forthcoming!
+
+[View The Well -- Live Desktop Preview](https://kristineservia.github.io/the-well/)
