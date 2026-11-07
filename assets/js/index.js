@@ -16,6 +16,10 @@ function router() {
     renderHomeView();
   }
 
+  if (route === "#/gallery") {
+    console.log("Gallery route activated!");
+  }
+
   console.log(route);
 }
 
