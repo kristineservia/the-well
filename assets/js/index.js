@@ -17,7 +17,15 @@ function router() {
   }
 
   if (route === "#/gallery") {
-    console.log("Gallery route activated!");
+    console.log("'Gallery' route activated!");
+  }
+
+  if (route === "#/create-new-set") {
+    console.log("'Create' route activated!");
+  }
+
+  if (route === "#/about") {
+    console.log("'About' route activated!");
   }
 
   console.log(route);
