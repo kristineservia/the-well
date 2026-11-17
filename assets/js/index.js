@@ -28,6 +28,15 @@ function router() {
     console.log("'About' route activated!");
   }
 
+  if (
+    route !== "#/home" &&
+    route !== "#/gallery" &&
+    route !== "#/create-new-set" &&
+    route !== "#/about"
+  ) {
+    window.location.hash = "#/home";
+  }
+
   console.log(route);
 }
 
