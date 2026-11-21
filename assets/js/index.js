@@ -13,10 +13,12 @@ function router() {
   }
 
   if (route === "#/home") {
+    document.querySelector("#gallery__home-view").hidden = false;
     renderHomeView();
   }
 
   if (route === "#/gallery") {
+    document.querySelector("#gallery__home-view").hidden = true;
     console.log("'Gallery' route activated!");
   }
 
